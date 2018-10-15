@@ -1,0 +1,31 @@
+{
+  "name": "wcs-angularjs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack-dev-server --config webpack.dev.config.js --host 0.0.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wanhuihan/wcs-angularjs.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wanhuihan/wcs-angularjs/issues"
+  },
+  "homepage": "https://github.com/wanhuihan/wcs-angularjs#readme",
+  "devDependencies": {
+    "html-webpack-plugin": "^3.2.0",
+    "webpack": "^4.19.1",
+    "webpack-cli": "^3.1.0"
+  },
+  "dependencies": {
+    "angular": "^1.7.4",
+    "bootstrap": "^3.3.7",
+    "jquery": "^3.3.1",
+    "webpack-dev-server": "^3.1.8"
+  }
+}
